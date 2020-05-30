@@ -1,0 +1,4 @@
+JWT_SECRET='abc123abc1234'
+LOG_LEVEL=DEBUG
+
+aws ssm put-parameter --name JWT_SECRET --value "abc123abc1234" --type SecureString
